@@ -1,5 +1,3 @@
-# todoist2csv
-
 ### Background
 
 I wanted to use Todoist for tracking my daily habits as 
