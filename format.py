@@ -37,7 +37,7 @@ dates = [start_dt+timedelta(days=i) for i in range(day_no)]
 
 # Create output array (extra space for header and date column)
 X = np.zeros((day_no+1, len(habits)+1), dtype='object')
-X[0, 0] = ''  # empty first cell
+X[0, 0] = 'Date'  # add title of date column
 # Add header
 X[0, 1:] = np.asarray(habits)
 # Populate date column with dates formated as dd/mm/yyyy
