@@ -38,7 +38,7 @@ This script reads a csv with the IFTTT output format and exports a csv with the 
 ### Instructions
 
 You can run this script with python 3 using the arguments --input_path to define the path of the IFTTT csv file, and, optionally, --output_path to define the directory and name of the formatted csv (see example below). If no output path is defined, the file ``output.csv`` is generated in the current working directory.
-```python3
+```shell
 python3 format.py --input_path=/Users/chris/IFTTThabits.csv --output_path=/Users/chris/habits.csv
 ```
 
